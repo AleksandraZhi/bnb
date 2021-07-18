@@ -1,13 +1,15 @@
 // import logo from './logo.svg'
 import './App.css'
-import NavBar from './components/NavigationBar'
-import Header from './components/Header'
+import NavBar from './components/Navigation/NavigationBar'
+import Header from './components/HomePage/Header/Hero/Header'
+import WhyCelleno from './components/HomePage/WhyCelleno/WhyCelleno'
 
 function App() {
 	return (
 		<div>
 			<NavBar />
 			<Header />
+			<WhyCelleno />
 		</div>
 
 		// <div className="App">

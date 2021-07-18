@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from './NavigationBar.module.css'
 
 const NavBar = () => {
 	return (
-		<nav className='navigation-columns'>
+		<nav>
 			<ul>
 				<li>
 					<a href='#'>Logo</a>
@@ -20,10 +21,10 @@ const NavBar = () => {
 					<a href='#'>Ask a question</a>
 				</li>
 			</ul>
-			<ul className='navigation-right'>
+			<ul className={styles.navigationRight}>
 				<li>
 					<button>
-						<a href='#'></a>Book
+						<a href='#'></a>Book now
 					</button>
 				</li>
 				<li>

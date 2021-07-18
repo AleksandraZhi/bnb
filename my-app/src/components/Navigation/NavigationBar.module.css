@@ -1,0 +1,42 @@
+html {
+	--text-color: #000;
+	--background-color: white;
+	--button-color: red;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	background-color: var(--background-color);
+}
+
+nav ul {
+	display: inline-flex;
+	width: 100%;
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	padding: 0 1rem;
+}
+
+.navigationRight {
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	color: var(--text-color);
+}
+
+nav button {
+	background-color: var(--button-color);
+	padding: 0.5rem;
+	border: var(--button-color) solid 1px;
+	border-radius: 10%;
+	text-transform: uppercase;
+	font-weight: bold;
+}
