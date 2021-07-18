@@ -24,7 +24,7 @@ nav ul li {
 }
 
 .navigationRight {
-	float: right;
+	justify-content: flex-end;
 }
 
 nav a {
